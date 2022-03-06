@@ -5,8 +5,6 @@ const client = new Discord.Client({intents: ["GUILDS", "GUILD_MESSAGES"]});
 
 const prefix = "thread";
 
-
-
 client.on("messageCreate", function(message) {
 
 
@@ -27,19 +25,19 @@ client.on("messageCreate", function(message) {
     if (command === "start") {
         message.reply('started thread life support test')
             // Runs 5 times, with values of step 0 through 4.
-            setTimeout(() => {  message.reply('!start'); }, 6000);
+            setTimeout(() => {  message.reply('!start'); }, 79200000);
 
 
     }
     if (command === "help") {
         message.reply('Heres what "ThreadKeeper" can do' +
-            'please note the prefix of all commands is "thread"' +
-            'threadstart will start an infinite loop that sends messages every now and then keeping a thread alive' +
-            'threadping responds with pong (testing)' +
-            'threaddraa responds with draa (derogatory)' +
-            'threadgaelansucks responds in a way you might not want it to. infact i would say you most likely DO NOT want to run this command' +
-            'version 0.2')
+            ' please note the prefix of all commands is "thread"' +
+            ' threadstart will start an infinite loop that sends messages every now and then keeping a thread alive' +
+            ' threadping responds with pong (testing)' +
+            ' threaddraa responds with draa (derogatory)' +
+            ' version 1.0')
     }
+
 
 
 });
