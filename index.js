@@ -5,9 +5,6 @@ const client = new Discord.Client({intents: ["GUILDS", "GUILD_MESSAGES"]});
 
 const prefix = "thread";
 
-app.listen(3000, function () {
-    console.log('Example app listening on port 3000!');
-});
 
 client.on("messageCreate", function(message) {
 
