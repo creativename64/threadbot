@@ -19,13 +19,14 @@ client.on("messageCreate", function(message) {
     if (command === "draa") {
         message.reply('draa.')
     }
-    if (command === "gaelansucks") {
+    if (command === "deadnamesucks") {
         member.kick();
+        //this does not work it just crashes the bot
     }
     if (command === "start") {
-        message.reply('started thread life support test')
+        message.reply('i will reply in 2 min')
             // Runs 5 times, with values of step 0 through 4.
-            setTimeout(() => {  message.reply('!start'); }, 79200000);
+            setTimeout(() => {  message.reply('threadstart'); }, 120000);
 
 
     }
