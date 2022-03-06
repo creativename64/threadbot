@@ -5,6 +5,8 @@ const client = new Discord.Client({intents: ["GUILDS", "GUILD_MESSAGES"]});
 
 const prefix = "thread";
 
+.listen(process.env.PORT || 5000)
+
 client.on("messageCreate", function(message) {
 
 
