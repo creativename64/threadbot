@@ -29,9 +29,7 @@ client.on("messageCreate", function(message) {
         message.channel.send('draa.')
         message.delete()
     }
-    if (command === "gaelansucksahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh") {
-        member.kick();
-    }
+
     if (command === "mylittlebitchisepicnowitshallstartitsmission") {
 
         message.delete()
