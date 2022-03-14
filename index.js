@@ -54,7 +54,7 @@ client.on('interactionCreate', async (interaction) => {
 
         }
         else{
-            interaction.reply("sorry but you don't have the perms to run this command. Look at /perms")
+
             cheese = interaction.member.user.id
             if (cheese === '674733684787773440') {
                 console.log("check2")
@@ -74,7 +74,7 @@ client.on('interactionCreate', async (interaction) => {
 
         }
         else{
-            interaction.reply("sorry but you don't have the perms to run this command. Look at /perms")
+
             cheese = interaction.member.user.id
             if (cheese === '674733684787773440') {
                 console.log("check2")
@@ -94,7 +94,7 @@ client.on('interactionCreate', async (interaction) => {
 
         }
         else{
-            interaction.reply("sorry but you don't have the perms to run this command. Look at /perms")
+
             cheese = interaction.member.user.id
             if (cheese === '674733684787773440') {
                 console.log("check2")
@@ -114,7 +114,7 @@ client.on('interactionCreate', async (interaction) => {
 
         }
         else{
-            interaction.reply("sorry but you don't have the perms to run this command. Look at /perms")
+
             cheese = interaction.member.user.id
             if (cheese === '674733684787773440') {
                 console.log("check2")
@@ -134,7 +134,7 @@ client.on('interactionCreate', async (interaction) => {
 
         }
         else{
-            interaction.reply("sorry but you don't have the perms to run this command. Look at /perms")
+
             cheese = interaction.member.user.id
             if (cheese === '674733684787773440') {
                 console.log("check2")
@@ -154,7 +154,7 @@ client.on('interactionCreate', async (interaction) => {
 
         }
         else{
-            interaction.reply("sorry but you don't have the perms to run this command. Look at /perms")
+
             cheese = interaction.member.user.id
             if (cheese === '674733684787773440') {
                 console.log("check2")
@@ -174,7 +174,7 @@ client.on('interactionCreate', async (interaction) => {
 
         }
         else{
-            interaction.reply("sorry but you don't have the perms to run this command. Look at /perms")
+
             cheese = interaction.member.user.id
             if (cheese === '674733684787773440') {
                 console.log("check2")
