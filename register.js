@@ -18,10 +18,6 @@ const commands = [
         description: 'shows the changelog since the last major version'
     },
     {
-        name: "betterthreadbotinfo",
-        description: "displays info about the betterthreadbotinfo"
-    },
-    {
         name: "perms",
         description: 'displays info about perms',
     },
